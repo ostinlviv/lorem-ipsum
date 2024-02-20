@@ -1,8 +1,8 @@
-import data from "../data/menu.json" assert { type: "json" };
+import menu from "../data/menu.json" assert { type: "json" };
+import news from "../data/news.json" assert { type: "json" };
 
-const frame = document.getElementById("menu");
-data.map((element) => {
-  console.log(element);
+const menuFrame = document.getElementById("menu");
+menu.map((element) => {
   let link = document.createElement("a");
   link.className = "menu-item";
   link.href = `${element.route}.html`;
@@ -14,5 +14,20 @@ data.map((element) => {
       </div>
       <img src="assets/images/arrow.svg" alt="arrow" />
     </div>`;
-  frame.appendChild(link);
+  menuFrame.appendChild(link);
+});
+
+const newsFrame = document.getElementById("news");
+news.map((element) => {
+  let divEl = document.createElement("div");
+  divEl.className = "news-item";
+  divEl.innerHTML = `
+    <div class="news-item-wrapper">
+      <div class="news-item-title">
+        <div class="news-title">${element.title}</div>
+        <div class="thin-text">${new Date(element.date).toLocaleDateString()}</div>
+      </div>
+      <div class="thin-text">${element.text}</div>
+    </div>`;
+  newsFrame.appendChild(divEl);
 });
