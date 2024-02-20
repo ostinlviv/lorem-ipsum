@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Contacts",
+      "route": "contacts",
+      "icon": "contacts"
+    },
+    {
+      "id": 2,
+      "name": "About app",
+      "route": "about",
+      "icon": "about"
+    },
+    {
+      "id": 3,
+      "name": "Rate us",
+      "route": "rate",
+      "icon": "rate"
+    },
+    {
+      "id": 4,
+      "name": "Agreement",
+      "route": "agreement",
+      "icon": "agreement"
+    }
+  ]
