@@ -70,3 +70,7 @@ body {
   font-weight: 400;
   color: #828282;
 }
+
+.hidden {
+  display: none;
+}

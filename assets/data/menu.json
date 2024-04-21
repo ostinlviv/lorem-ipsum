@@ -1,25 +1,49 @@
 [
     {
       "id": 1,
-      "name": "Contacts",
+      "name": {
+        "en": "Contacts",
+        "fr": "Contacts",
+        "es": "Contactos",
+        "uk": "Контакти",
+        "ru": "Контакты"
+      },
       "route": "contacts",
       "icon": "contacts"
     },
     {
       "id": 2,
-      "name": "About app",
+      "name": {
+        "en": "About app",
+        "fr": "À propos de l'application",
+        "es": "Acerca de la aplicación",
+        "uk": "Про додаток",
+        "ru": "О приложении"
+      },
       "route": "about",
       "icon": "about"
     },
     {
       "id": 3,
-      "name": "Rate us",
+      "name": {
+        "en": "Rate us",
+        "fr": "Évaluez nous",
+        "es": "Nos califica",
+        "uk": "Оцініть нас",
+        "ru": "Оцените нас"
+      },
       "route": "rate",
       "icon": "rate"
     },
     {
       "id": 4,
-      "name": "Agreement",
+      "name": {
+        "en": "Agreement",
+        "fr": "Accord",
+        "es": "Acuerdo",
+        "uk": "Угода",
+        "ru": "Соглашение"
+      },
       "route": "agreement",
       "icon": "agreement"
     }
